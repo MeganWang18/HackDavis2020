@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MEO
 //
-//  Created by megan on 1/18/20.
+//  Created by megan on 1/18/20. And Amber!
 //  Copyright © 2020 MAMA. All rights reserved.
 //
 
