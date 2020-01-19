@@ -15,6 +15,7 @@
 		4476CBA723D3CCC7000F92E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4476CBA523D3CCC7000F92E8 /* LaunchScreen.storyboard */; };
 		4476CBB223D3CCC7000F92E8 /* MEOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CBB123D3CCC7000F92E8 /* MEOTests.swift */; };
 		4476CBBD23D3CCC7000F92E8 /* MEOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CBBC23D3CCC7000F92E8 /* MEOUITests.swift */; };
+		4476CBCB23D3CD32000F92E8 /* ButtonScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CBCA23D3CD32000F92E8 /* ButtonScript.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4476CBB823D3CCC7000F92E8 /* MEOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4476CBBC23D3CCC7000F92E8 /* MEOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOUITests.swift; sourceTree = "<group>"; };
 		4476CBBE23D3CCC7000F92E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4476CBCA23D3CD32000F92E8 /* ButtonScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScript.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,9 @@
 				4476CB9A23D3CCC6000F92E8 /* AppDelegate.swift */,
 				4476CB9C23D3CCC6000F92E8 /* SceneDelegate.swift */,
 				4476CB9E23D3CCC6000F92E8 /* ContentView.swift */,
-				4476CBA023D3CCC7000F92E8 /* Assets.xcassets */,
+				4476CBCA23D3CD32000F92E8 /* ButtonScript.swift */,
 				4476CBA523D3CCC7000F92E8 /* LaunchScreen.storyboard */,
+				4476CBA023D3CCC7000F92E8 /* Assets.xcassets */,
 				4476CBA823D3CCC7000F92E8 /* Info.plist */,
 				4476CBA223D3CCC7000F92E8 /* Preview Content */,
 			);
@@ -269,6 +272,7 @@
 			files = (
 				4476CB9B23D3CCC6000F92E8 /* AppDelegate.swift in Sources */,
 				4476CB9D23D3CCC6000F92E8 /* SceneDelegate.swift in Sources */,
+				4476CBCB23D3CD32000F92E8 /* ButtonScript.swift in Sources */,
 				4476CB9F23D3CCC6000F92E8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
