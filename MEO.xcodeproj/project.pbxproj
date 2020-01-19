@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0A6E77C5EE86C12B737295E6 /* Pods_MEO_MEOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76860CE1CC957884F180ECA /* Pods_MEO_MEOUITests.framework */; };
+		34D66F6023D4EBC200B66991 /* MEOviewcontrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D66F5F23D4EBC200B66991 /* MEOviewcontrollerViewController.swift */; };
+		34D66F6223D4ECB600B66991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D66F6123D4ECB600B66991 /* LaunchScreen.storyboard */; };
+		34D66F6423D4FD8200B66991 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34D66F6323D4FD8200B66991 /* GoogleService-Info.plist */; };
 		4476CB9B23D3CCC6000F92E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CB9A23D3CCC6000F92E8 /* AppDelegate.swift */; };
 		4476CB9D23D3CCC6000F92E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CB9C23D3CCC6000F92E8 /* SceneDelegate.swift */; };
 		4476CB9F23D3CCC6000F92E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CB9E23D3CCC6000F92E8 /* ContentView.swift */; };
 		4476CBA123D3CCC7000F92E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4476CBA023D3CCC7000F92E8 /* Assets.xcassets */; };
 		4476CBA423D3CCC7000F92E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4476CBA323D3CCC7000F92E8 /* Preview Assets.xcassets */; };
-		4476CBA723D3CCC7000F92E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4476CBA523D3CCC7000F92E8 /* LaunchScreen.storyboard */; };
+		4476CBA723D3CCC7000F92E8 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4476CBA523D3CCC7000F92E8 /* main.storyboard */; };
 		4476CBB223D3CCC7000F92E8 /* MEOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CBB123D3CCC7000F92E8 /* MEOTests.swift */; };
 		4476CBBD23D3CCC7000F92E8 /* MEOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CBBC23D3CCC7000F92E8 /* MEOUITests.swift */; };
-		75176588C6957CFE5D108D5A /* Pods_MEO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7D7C978B54A5CB4D7E9180 /* Pods_MEO.framework */; };
-		A104331B23D3E0AA00B81BE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A104331A23D3E0AA00B81BE7 /* GoogleService-Info.plist */; };
-		EAFD91BC9C1678569A302442 /* Pods_MEOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F5ACAC6A27A40A6A73BEC3 /* Pods_MEOTests.framework */; };
 		4476CBCB23D3CD32000F92E8 /* ButtonScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476CBCA23D3CD32000F92E8 /* ButtonScript.swift */; };
+		75176588C6957CFE5D108D5A /* Pods_MEO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7D7C978B54A5CB4D7E9180 /* Pods_MEO.framework */; };
+		EAFD91BC9C1678569A302442 /* Pods_MEOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F5ACAC6A27A40A6A73BEC3 /* Pods_MEOTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		188C8A4AE954343DD508DCBE /* Pods-MEO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEO.release.xcconfig"; path = "Target Support Files/Pods-MEO/Pods-MEO.release.xcconfig"; sourceTree = "<group>"; };
+		34D66F5F23D4EBC200B66991 /* MEOviewcontrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOviewcontrollerViewController.swift; sourceTree = "<group>"; };
+		34D66F6123D4ECB600B66991 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34D66F6323D4FD8200B66991 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		35EDC5C08A9736AA063A58D9 /* Pods-MEOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEOTests.release.xcconfig"; path = "Target Support Files/Pods-MEOTests/Pods-MEOTests.release.xcconfig"; sourceTree = "<group>"; };
 		4476CB9723D3CCC6000F92E8 /* MEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4476CB9A23D3CCC6000F92E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +53,7 @@
 		4476CB9E23D3CCC6000F92E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4476CBA023D3CCC7000F92E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4476CBA323D3CCC7000F92E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4476CBA623D3CCC7000F92E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4476CBA623D3CCC7000F92E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
 		4476CBA823D3CCC7000F92E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4476CBAD23D3CCC7000F92E8 /* MEOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4476CBB123D3CCC7000F92E8 /* MEOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOTests.swift; sourceTree = "<group>"; };
@@ -56,15 +61,14 @@
 		4476CBB823D3CCC7000F92E8 /* MEOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4476CBBC23D3CCC7000F92E8 /* MEOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEOUITests.swift; sourceTree = "<group>"; };
 		4476CBBE23D3CCC7000F92E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4476CBCA23D3CD32000F92E8 /* ButtonScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScript.swift; sourceTree = "<group>"; };
 		5EE1F2AFDC05EDE6BE6EF47E /* Pods-MEO-MEOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEO-MEOUITests.debug.xcconfig"; path = "Target Support Files/Pods-MEO-MEOUITests/Pods-MEO-MEOUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		97C91D847462FBB0AF208274 /* Pods-MEOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEOTests.debug.xcconfig"; path = "Target Support Files/Pods-MEOTests/Pods-MEOTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A104331A23D3E0AA00B81BE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A4F5ACAC6A27A40A6A73BEC3 /* Pods_MEOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF27DC858CD87B80B90EF119 /* Pods-MEO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEO.debug.xcconfig"; path = "Target Support Files/Pods-MEO/Pods-MEO.debug.xcconfig"; sourceTree = "<group>"; };
 		CC7D7C978B54A5CB4D7E9180 /* Pods_MEO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76860CE1CC957884F180ECA /* Pods_MEO_MEOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEO_MEOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06176CF7C1A71566E5549E5 /* Pods-MEO-MEOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEO-MEOUITests.release.xcconfig"; path = "Target Support Files/Pods-MEO-MEOUITests/Pods-MEO-MEOUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4476CBCA23D3CD32000F92E8 /* ButtonScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScript.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,15 +137,17 @@
 		4476CB9923D3CCC6000F92E8 /* MEO */ = {
 			isa = PBXGroup;
 			children = (
-				A104331A23D3E0AA00B81BE7 /* GoogleService-Info.plist */,
+				34D66F6323D4FD8200B66991 /* GoogleService-Info.plist */,
 				4476CB9A23D3CCC6000F92E8 /* AppDelegate.swift */,
 				4476CB9C23D3CCC6000F92E8 /* SceneDelegate.swift */,
 				4476CB9E23D3CCC6000F92E8 /* ContentView.swift */,
 				4476CBCA23D3CD32000F92E8 /* ButtonScript.swift */,
-				4476CBA523D3CCC7000F92E8 /* LaunchScreen.storyboard */,
+				4476CBA523D3CCC7000F92E8 /* main.storyboard */,
+				34D66F5F23D4EBC200B66991 /* MEOviewcontrollerViewController.swift */,
 				4476CBA023D3CCC7000F92E8 /* Assets.xcassets */,
 				4476CBA823D3CCC7000F92E8 /* Info.plist */,
 				4476CBA223D3CCC7000F92E8 /* Preview Content */,
+				34D66F6123D4ECB600B66991 /* LaunchScreen.storyboard */,
 			);
 			path = MEO;
 			sourceTree = "<group>";
@@ -291,8 +297,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4476CBA723D3CCC7000F92E8 /* LaunchScreen.storyboard in Resources */,
-				A104331B23D3E0AA00B81BE7 /* GoogleService-Info.plist in Resources */,
+				4476CBA723D3CCC7000F92E8 /* main.storyboard in Resources */,
+				34D66F6423D4FD8200B66991 /* GoogleService-Info.plist in Resources */,
+				34D66F6223D4ECB600B66991 /* LaunchScreen.storyboard in Resources */,
 				4476CBA423D3CCC7000F92E8 /* Preview Assets.xcassets in Resources */,
 				4476CBA123D3CCC7000F92E8 /* Assets.xcassets in Resources */,
 			);
@@ -423,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4476CB9B23D3CCC6000F92E8 /* AppDelegate.swift in Sources */,
+				34D66F6023D4EBC200B66991 /* MEOviewcontrollerViewController.swift in Sources */,
 				4476CB9D23D3CCC6000F92E8 /* SceneDelegate.swift in Sources */,
 				4476CBCB23D3CD32000F92E8 /* ButtonScript.swift in Sources */,
 				4476CB9F23D3CCC6000F92E8 /* ContentView.swift in Sources */,
@@ -461,12 +469,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4476CBA523D3CCC7000F92E8 /* LaunchScreen.storyboard */ = {
+		4476CBA523D3CCC7000F92E8 /* main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4476CBA623D3CCC7000F92E8 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
