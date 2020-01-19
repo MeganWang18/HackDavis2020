@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>930570216216-1gqrvmpbvpg2j9ssjlut1l8c3oqjnkjj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.930570216216-1gqrvmpbvpg2j9ssjlut1l8c3oqjnkjj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA849wjbEqJAxS1zfkb_j2Hm3d_pGev0ys</string>
+	<key>GCM_SENDER_ID</key>
+	<string>930570216216</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Megan.MEO</string>
+	<key>PROJECT_ID</key>
+	<string>hackdavis2020-a6530</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hackdavis2020-a6530.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:930570216216:ios:219c780690f6b0a1f3346d</string>
+	<key>DATABASE_URL</key>
+	<string>https://hackdavis2020-a6530.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_MEO {
+  umbrella header "Pods-MEO-umbrella.h"
+
+  export *
+  module * { export * }
+}
